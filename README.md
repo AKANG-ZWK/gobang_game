@@ -1,2 +1,3 @@
 # gobang_game
-This is a web version of the Gobang game project that I have implemented, which includes all the content of the project and my description file for the project.
+这个仓库里面是我写的网页版的五子棋游戏的所有资料，包括：源码、素材、描述。
+
