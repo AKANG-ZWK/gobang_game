@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎</title>
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/init.css">
+
+</head>
+<body>
+    <div class="nav">
+        网络五子棋对战游戏
+    </div>
+    
+    <div class="login-container">
+        <div class="notice">注意：手机用户请横屏使用，以获得最佳体验！</div>
+
+        <div class="register_button" onclick="jump_register()">注册</div>
+
+        <div class="login_button" onclick="jump_login()">登录</div>
+
+    </div>
+
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script>
+        function jump_register(){
+            window.location.assign("/register.html");
+        }
+        function jump_login(){
+            window.location.assign("/login.html");
+        }
+ 
+    </script>
+</body>
+</html>
